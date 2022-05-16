@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+*{margin: 0; padding: 0;}
+
+* ul,ol,li{list-style:none;}
+
+*{box-sizing: border-box; margin: 0px; }
+
+
+@media(max-width:599px){
+
+/*-------------------------------------------헤더 맨위에---------------------------------------------*/
+
+header{width: 100%; height: 120px; background-color:#024126; margin: 0 auto;}
+
+#logo{width: 100%; height: 120px; background-color:#024126; padding:30px 0 auto; margin: 0 auto;display: flex; justify-content: center; align-items: center;}
+
+#logobox{width: 80%; height: 70px; background-color:#024126; display: flex; justify-content: center; align-items: center; margin: 0 0 0 20px; }
+
+#logobox>a>img{width: 100%; height: 100%;margin: 20px 2px ;}
+
+
+
+
+
+/*-------------------------------------------메뉴들---------------------------------------------*/
+
+
+/*---------------------------------------햄버거 메뉴하려고 했던것들---------------------------
+
+.icon{width:90%; height: 100%; background-color: #024126; display: flex; justify-content: center; align-items: center; }
+
+.icon img{width:30px; height:30px; margin: 30px 0 0 0px; }
+
+.icon img:hover{opacity: 0.7;}
+
+-------------------------------------------------------------------------------------------*/
+
+.xxx {width:20px; height:20px;  margin:50px 0 30px 270px;  cursor:pointer; }
+
+.active{border-top:1px solid #125438;  }
+
+.a {display: none;}
+
+#menu1 {width:300px; height:100vh; background-color:#012113;  right:-300px; opacity:0.9;position: fixed; right:-300px; opacity:0.9; margin: -120px 0 0 0px; }
+
+.navBtn {  width: 30px; height:30px; line-height: 50px;  background-color:#024126; float: right;}
+
+
+#menu1 h1 {text-align:center; margin:0 0 100px 0px;}
+
+#menu1 li {text-align:center; line-height:35px; cursor:pointer;  border-bottom:1px solid #125438; font-family: 'Josefin Sans', sans-serif; font-weight: 600;line-height: 50px; }
+
+#menu1 li a {color:#ead4c0; text-decoration:none; }
+
+#menu1 li:hover { color:#F8E9DB;}
+
+#menu1 li:hover a{color:#fff;}
+
+
+
+
+
+
+
+/*-------------------------------------------푸터 맨밑에--------------------------------------------*/
+
+footer{width: 100%;  height: 320px; background-color:#F3E8DF;margin: 0 auto; }
+
+#last{width: 100%;  height: 164px; background-color:#F3E8DF; margin: 0 auto;display: flex; }
+
+
+
+#famila{width: 50%;  height: auto; background-color: #F3E8DF;display: flex; flex-direction: column; }
+
+#estd{width: 100%;  height: 52px; background-color: #F3E8DF; margin: 0 auto; float: left;}
+
+#underpen{width: 100%;  height: 60px; background-color: #F3E8DF; margin: 11px auto; float: left; color: #776c62; font-family: 'Josefin Sans', sans-serif; font-size: 20px; font-weight: 300;}
+
+
+#phone{width: 50%;  height: 120px; background-color:#F3E8DF; margin: 0 auto; display: flex; flex-direction: column; }
+
+#iconum{width: 100%;  height: 52px; background-color:#F3E8DF; margin: 0 auto;float: right;}
+
+#iconum>h4{float: right; font-size: 24px;  font-family: 'Josefin Sans', sans-serif; font-weight: 600; margin: 15px auto; color: #776c62;}
+
+#iconbird{width: 100%;  height: 30px; background-color:#F3E8DF; margin:31px auto;  display: flex; justify-content: flex-end;}
+
+#iconbird a img{width: 30px; height: 30px; float: left; margin: 0 0 0 10px;}
+
+#betheme{width: 100%; height: 88px; background-color: #F3E8DF; margin:57px auto; border-top: 1px solid #776c62;}
+
+#beantown{width: 100%; height: 88px; background-color: #F3E8DF; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+
+#beantown>p{font-family: 'Josefin Sans', sans-serif; color: #776c62; float: left;}
+
+#beantown>p>a{text-decoration: none; color: #d3ad7f; }
+
+#beantown>p>a:hover{text-decoration: underline; font-weight: 500 ;}
+
+}

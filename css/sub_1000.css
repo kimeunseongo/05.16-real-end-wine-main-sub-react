@@ -1,0 +1,221 @@
+﻿@charset "utf-8";
+
+@media(min-width: 1000px){
+
+
+
+
+
+
+
+
+/*-------------------------------------------중간 컨테이너---------------------------------------------*/
+
+#container1{width: 100%; height: 50px; background-color: #024126; margin: 0px auto;}
+
+/*-------------------------------------------배너시작---------------------------------------------*/
+
+
+#banner{width: 100%; height: 400px;  background-color: #024126; margin: 0px auto; display: flex;justify-content: center; align-items: center; background-image: url("../img/subbanner.jpg"); background-size:cover; background-position:center; }
+
+#ourbox{width:400px; height: 400px;  }
+
+#ourbox p {font-size: 25px; text-align: center; margin: 120px 0 0 0px; font-weight: bold; color:#d3ad7f ;font-style: italic;  }
+
+#ourbox h4 {font-size: 45px; text-align: center; margin: 20px auto; color: #fff; font-family: 'Josefin Sans', sans-serif; }
+
+
+#ourbox h5 { text-align: center; margin: 0px auto; color: #fff; color:#d3ad7f ;}
+/*-------------------------------------------중간 컨테이너---------------------------------------------*/
+
+#container2{width: 5%; height: 3000px; background:  #024126 ;margin: 0px auto;}
+
+
+/*-------------------------------------------콘텐츠시작---------------------------------------------*/
+
+
+#contentsbox{width: 100%; height: auto; background-color: #024126; margin: 0px auto; display: flex; justify-content: center;  }
+
+#wrapbox{width: 1260px; height: auto; background-color:#024126; margin: 0px auto;display: flex;}
+
+/*-------------------------------------------빅박스1 시작---------------------------------------------*/
+
+#bigbox1{width: 65%; height: auto; background: #024126 ; margin: 0px auto;}
+
+
+
+#vineyard1{width: 100%; height: auto; background-color:  #024126 ; margin: 0px auto;}
+
+
+
+.name{width: 100%; height: 130px; background-color: #024126; margin: 0px auto;}
+
+.name h1{color: #fff; font-family: 'Josefin Sans', sans-serif;}
+
+.name p{color:#d3ad7f;   margin:7px auto;}
+
+.name span{color:#d3ad7f;}
+
+
+.imgbox{width: 100%; height: 520px; background-color: #024126; margin: 0px auto;}
+
+
+.imgbox img{ width: 100%; height: 100%;}
+
+
+.tag{width: 100%; height:auto ;background-color: #024126; margin: 0px auto;}
+
+
+
+.tagbutton{width: 100%; height: 30%; background: #024126; margin: 0px auto;}
+
+.tagbutton h4{ font-size: 14px; margin: 15px 0 0 0px;}
+
+.tagbutton span{font-size: 16px; font-weight: 100; background-color: #047c48; color: #fff; border-radius: 5px; }
+
+.tagbutton span:hover{color: #fff; cursor: pointer;}
+
+
+
+.tagline{width: 100%; height: auto; margin: 10px auto; background-color: #024126;}
+
+.tagline p {font-size: 15px; color:#d3ad7f;}
+
+
+
+.underbutton{width: 100% ; height:50px ; background-color: #024126;  margin: 0px auto; display: flex;justify-content: space-between;}
+
+.underbutton button{width: 100px; height: 40px; font-size: 14px; border: none; background-color:#62011d; color: #fff; margin: 5px;}
+
+
+.underbutton button:hover{background-color: black; cursor: pointer;}
+
+
+
+
+.underbutton ul{margin: 9px 0px; border: 1px solid black; }
+
+.underbutton ul li{float: left; width: 80px; height: 30px;  text-align: center; font-size: 18px; background-color: #01190e; color: #fff;}
+
+.underbutton ul li .eye{width: 18px; height: 13px;   display: inline-block; margin: 8px 5px 0 0px;background-color:  #01190e;}
+
+.underbutton ul li .comment{width: 18px; height: 13px;  display: inline-block; margin: 8px 5px 0 0px; background-color:  #01190e;}
+
+
+
+.minicontainer{width: 100%; height: 50px; background-color: #024126;}
+
+
+/*-------------------------------------------중간 컨테이너---------------------------------------------*/
+
+#container2{width: 5%; height: auto; background: #024126;margin: 0px auto;}
+
+/*-------------------------------------------빅박스2 시작---------------------------------------------*/
+
+
+#bigbox2{width: 30%; height: auto; background: #024126; margin: 0px auto;}
+
+/*------------------------------------------검색창 시작---------------------------------------------*/
+.search-box { background-color: #024126; width:100%; height:80px; padding:10px; display: flex; align-items: center; justify-content: center; border: 1px solid black;}
+
+
+
+input {width:100%; height:32px; float:left; margin:0; font-family:"돋움"; font-size:10px; color:#fff; background-color:rgba(255,255,255,0.3);  outline: none; border:none;  padding:20px;  transition:all 0.3s;}
+
+input::placeholder { color:#fff; }
+
+input:focus {background-color:rgba(255,255,255,0.5);  }
+
+input:blur {opacity:0.5; }
+
+i {color:#fff; background-color: #024126; width: 10%; height: auto; margin: 5px  0 0 20px;}
+
+i:hover{cursor:pointer;}
+
+
+
+
+/*-----------------------------------------포스트1 시작 어바웃어스---------------------------------------------*/
+
+#sidecontainer1{width: 100%; height: 15px; background-color: #024126; margin: 5px auto;}
+
+#post1{width: 100%; height: auto; margin: 0px auto; background-color: #024126;}
+
+
+.postname{width: 100%; height:50px;   display:flex; justify-content: center; align-items: center; background-color:#02311d ; }
+
+.postname h3{color: #fff; }
+
+#postimgbox{width: 100%; height:252px ; background-color:yellow ;}
+
+#postimgbox img{width: 100%; height: 100%;}
+
+#postline {width: 100%; height:auto ; background-color: #024126; color: #fff; margin: 10px auto;}
+
+#postline p{font-size: 14px;color: #d3ad7f;}
+
+#sidecontainer2{width: 100%; height: 40px; background: #024126; margin: 0px auto;}
+
+
+/*-----------------------------------------포스트2 시작 리센트포스트---------------------------------------------*/
+
+
+
+.recentbox{width: 100%; height:80px ; background-color:#024126; display: flex;}
+
+.recentimgbox{width:30% ; height: 100%; background-color: #024126; display: flex; justify-content: center; align-items: center;}
+
+.recentimgbox img{width: 60%; height: 70%;}
+
+.recentline{width: 70%; height: auto; background-color: #024126;display: flex; flex-direction: column; justify-content: center; }
+
+.recentline h4{font-size: 14px; color: #fff;}
+
+.recentline p {font-size: 12px; color:#d3ad7f; }
+
+
+.recentline p span{font-weight: bold;}
+
+/*-----------------------------------------포스트3 시작 리센트태그---------------------------------------------*/
+
+#post3{width: 100%; height: auto; background-color: #024126;margin: 0px auto;}
+
+#tagbtn button{width:70px; height: 30px; border: none; background-color: #047c48; margin: 0 0 7px 1px;color: #fff; cursor: pointer; }
+
+#tagbtn button:hover{background-color:#02311d ;}
+
+/*-----------------------------------------포스트4 시작 카테고리스---------------------------------------------*/
+#post4{width: 100%; height: 250px; background-color: #024126;margin: 0px auto;}
+
+.Categoryline{background-color: #024126;;  width: 100%; height: auto; }
+
+.Categoryline ul{display: flex; }
+
+.Categoryline ul .q{background-color: #024126; width: 85%; border-bottom: 1px dotted #fff;margin: 5px 0 0 0px; color: #fff; }
+
+.Categoryline ul .w{background-color:#62011d; ; width: 25px;  display: flex; justify-content: center; margin: 5px 0 0 20px; border-radius: 100px; color: #fff;}
+
+
+/*-----------------------------------------포스트5 시작 소셜위젯---------------------------------------------*/
+
+#post5{width: 100%; height: auto; background-color:  #024126;margin: 0px auto;display: flex; flex-direction: column; justify-content: center;}
+
+#point{width: 100%; height: auto; background: #024126;; display: flex; justify-content: space-evenly;align-items: center;}
+
+#point a img{margin: 15px 5px 5px 0px; width: 80%; height: 80%;}
+
+#point a img:hover{background-color:#047c48 ; border-radius: 40px;}
+
+
+
+
+
+/*-------------------------------------------중간 컨테이너---------------------------------------------*/
+
+#container3{width: 100%; height: 50px; background:#024126;margin: 0px auto;}
+
+#container4{width: 100%; height: 40px; background:#F3E8DF;margin: 0px auto;}
+
+
+
+}
